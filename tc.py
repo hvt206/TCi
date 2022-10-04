@@ -58,7 +58,7 @@ def start():
             print("<3 Attacking {0}:{1} | Sent: {2}".format(str(ip), int(port), xx))
         except:
             s.close()
-            print('<3 Bot DDos Rabbit!')
+            print('(^_^) Rabbit Is Attacking!')
 
 for x in range(thread):
     thred = threading.Thread(target=start)
